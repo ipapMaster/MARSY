@@ -305,13 +305,9 @@ body {
 
 /*Contacts*/
 
-.contact {}
-
 .contact .block__head .block__title {
     padding-top: 95px;
 }
-
-.contact__inner {}
 
 .contact__icon-box {
     display: flex;
@@ -331,8 +327,6 @@ body {
     font-size: 21px;
 }
 
-.icon-phone-squared {}
-
 .contact__text {
     margin-bottom: 12px;
 }
@@ -351,10 +345,6 @@ body {
     color: #4b4b4b;
     text-decoration: underline;
 }
-
-.icon-location {}
-
-.icon-mail-alt {}
 
 .contact__form {
     padding-top: 153px;
