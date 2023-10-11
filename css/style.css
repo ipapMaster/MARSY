@@ -426,3 +426,55 @@ input[type='number'] {
     letter-spacing: 0.02em;
     color: #3b3b3b;
 }
+
+/* iPad */
+@media screen and (max-width: 769px) {
+    .container {
+        width: 768px;
+    }
+
+    .about {
+        height: auto;
+        padding-bottom: 200px;
+        background-position: center 102%;
+    }
+
+    .about__inner {
+        gap: 30px;
+        grid-template-columns: max-content;
+    }
+
+    .team .block__title,
+    .provide .block__title {
+        padding-top: 100px;
+    }
+
+    .provide__inner {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .provide__item {
+        max-width: 300px;
+        margin: 0 30px 40px;
+    }
+
+    .provide {
+        padding-bottom: 100px;
+    }
+
+    .contact__form {
+        padding-top: 100px;
+    }
+
+    .footer {
+        padding-top: 30px;
+    }
+}
+
+/* iPhone */
+@media screen and (max-width: 376px) {
+    .container {
+        width: 375px;
+    }
+}
